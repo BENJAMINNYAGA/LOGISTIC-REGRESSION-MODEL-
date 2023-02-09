@@ -50,3 +50,26 @@ def gradient(X, h, y):
     return np.dot(X.T, (h - y)) / y.shape[0]
 
 def logistic_regression(X, y, theta, alpha, iters):
+Simple steps to come up with the logistic regression model to train and prediction of a customer churning.
+#Import libraries
+Libraries such as numpy,pandas, matplotlib ana seaborne are the basic
+Ones to interact with the dataset.
+#Loading the dataset.
+Using the read_csv function,the very famous one for from python for loading dataset into IDE 
+is used.
+#Data cleaning
+This is where all outliers are do away with.
+This is to ensure that data is cleaned and with no duplicates for easy training.
+#Data preprocessing
+This comes in to ensure that all data is converted into numeric form . 
+##Importing the logistic regression model.
+This is done by invoking the sklearn libraries to bring the model to the task.
+#Data training and splitting.
+Here the cleaned data is divided into training and testing data.
+The model is the called to fit with the data for easy prediction of an instance.
+#Conclusions.
+  The logistic regression model performed Soo well such that it was able to predict a customer churning by an accuracy of 78.9%.
+   I recommend the ude of logistic regression as it became the best with the prediction percentage accuracy 
+ 
+
+
